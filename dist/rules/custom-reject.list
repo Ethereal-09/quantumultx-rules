@@ -1,0 +1,2 @@
+# 自维护拦截规则。
+host-suffix, doubleclick.net, reject

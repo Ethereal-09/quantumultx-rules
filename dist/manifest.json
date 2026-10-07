@@ -1,0 +1,59 @@
+{
+  "advertising": {
+    "policy": "reject",
+    "rules": 38066,
+    "sha256": "2f6d251e800b477383948278f653dd17b7904ef28e05c94d5b2b63b994a34752",
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingLite/AdvertisingLite.list"
+  },
+  "apple": {
+    "policy": "苹果服务",
+    "rules": 1881,
+    "sha256": "ad4fdd206c7087fedb420b96f56f2e2db2e5e655221899184bd46d1a5d457740",
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list"
+  },
+  "custom-direct": {
+    "rules": 2,
+    "sha256": "ef507850df8a8b5dff11e96f7363d8edc5eeeedd5390516af63f874feffd21f5",
+    "source": "rules/direct.list"
+  },
+  "custom-proxy": {
+    "rules": 1,
+    "sha256": "a87d14977df24e5ebd0dad95e6272979802225a621ea9fed94f488ccee2f433b",
+    "source": "rules/proxy.list"
+  },
+  "custom-reject": {
+    "rules": 1,
+    "sha256": "ffad8724b42d32bebffa8eda765d88f56f325e69dde738d436900be7947af8bd",
+    "source": "rules/reject.list"
+  },
+  "direct-upstream": {
+    "policy": "direct",
+    "rules": 232,
+    "sha256": "0955d831ce7cddb6a4280b875525c0a16203a160647cd5895c47a901d84c18d8",
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Direct/Direct.list"
+  },
+  "github": {
+    "policy": "节点选择",
+    "rules": 31,
+    "sha256": "08b93f4c9e302e09ac415e1278acec55c218878ed44ed6538461e2b86d2e037b",
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GitHub/GitHub.list"
+  },
+  "openai": {
+    "policy": "AI服务",
+    "rules": 35,
+    "sha256": "70f5287b4ddb91afe8cd051712969b293896b01af78701b3f2e6f77269b49ff6",
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/OpenAI/OpenAI.list"
+  },
+  "proxy": {
+    "policy": "节点选择",
+    "rules": 7447,
+    "sha256": "592283d064755fd790d8b14d2524eb6941b33b758e2fe8c346d98990ae18d930",
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy.list"
+  },
+  "telegram": {
+    "policy": "节点选择",
+    "rules": 40,
+    "sha256": "d13c702f6f42b5867aace61bce0a87bfb6d193f284f66f92aac00f4a7ef7a72c",
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list"
+  }
+}

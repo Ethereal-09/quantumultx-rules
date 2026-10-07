@@ -1,0 +1,2 @@
+# 自维护代理规则。proxy 在构建时映射为“节点选择”。
+host-suffix, github.com, proxy

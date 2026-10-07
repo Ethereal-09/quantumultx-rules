@@ -1,0 +1,75 @@
+name: Build Quantumult X
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 22 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'profiles/**'
+      - 'templates/**'
+      - 'rules/**'
+      - 'requirements.txt'
+      - '.github/workflows/build.yml'
+  pull_request:
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'profiles/**'
+      - 'templates/**'
+      - 'rules/**'
+      - 'vendor/**'
+      - 'dist/**'
+      - 'requirements.txt'
+      - '.github/workflows/build.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: qx-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python src/build.py --offline
+      - run: python src/build.py --offline --check
+  publish:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: verify
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Refresh and validate all sources
+        run: python src/build.py --strict
+      - run: python src/build.py --offline --check
+      - name: Commit validated output
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add dist vendor
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: update Quantumult X rules'
+            git push origin HEAD:main
+          fi

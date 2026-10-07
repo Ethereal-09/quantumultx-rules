@@ -1,0 +1,3 @@
+# 自维护直连规则；可添加误拦截域名作为例外。
+host-suffix, local, direct
+host, localhost, direct
