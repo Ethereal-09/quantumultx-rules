@@ -1,0 +1,93 @@
+{
+  "advertising": {
+    "kind": "filter",
+    "path": "upstream/filter/advertising.list",
+    "rules": 38066,
+    "sha256": "566865dfe8f72c1145567c05d0a72ab8111443f4cddc9a8d636e7cfa756b8e10",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingLite/AdvertisingLite.list"
+  },
+  "advertising-rewrite": {
+    "kind": "rewrite",
+    "path": "upstream/rewrite/advertising-rewrite.conf",
+    "rules": 1236,
+    "sha256": "5f9f9ca4af573049e76bc1683c75dae401ad188fb4da6d5b9d72334aba272ef1",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingLite/AdvertisingLite.conf"
+  },
+  "advertising-rewrite-filter": {
+    "kind": "filter",
+    "path": "upstream/filter/advertising-rewrite-filter.list",
+    "rules": 373,
+    "sha256": "34742f19a42aadd0108041a02cc87bd53832d90959dd04507cc95623cb54abdd",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingLite/AdvertisingLite.list"
+  },
+  "advertising-script": {
+    "kind": "rewrite",
+    "path": "upstream/rewrite/advertising-script.conf",
+    "rules": 35,
+    "sha256": "cf1a55ef0f600bea61456f1f77e64ceed67a0209add767eecf32936741522f3c",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingScript/AdvertisingScript.conf"
+  },
+  "advertising-script-filter": {
+    "kind": "filter",
+    "path": "upstream/filter/advertising-script-filter.list",
+    "rules": 11,
+    "sha256": "f22e86a5cad5cd9ac32d59256d6ff27f65ab147f0c92e16c6db7ec425ce8d97c",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingScript/AdvertisingScript.list"
+  },
+  "apple": {
+    "kind": "filter",
+    "path": "upstream/filter/apple.list",
+    "rules": 1881,
+    "sha256": "8d2d8eca1ff97b652c01092367ca047f5f412bf2648cad2c2bc5497346595d41",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list"
+  },
+  "direct-upstream": {
+    "kind": "filter",
+    "path": "upstream/filter/direct-upstream.list",
+    "rules": 232,
+    "sha256": "5ba475db11bd85c7f92699760c15d935d6011616143c99fff54827783772dc7a",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Direct/Direct.list"
+  },
+  "github": {
+    "kind": "filter",
+    "path": "upstream/filter/github.list",
+    "rules": 31,
+    "sha256": "413f664aa29692e83879422ee6d35ced46dd135ebd85f67afaf554ab14391f77",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GitHub/GitHub.list"
+  },
+  "openai": {
+    "kind": "filter",
+    "path": "upstream/filter/openai.list",
+    "rules": 35,
+    "sha256": "6ec16f5da986a15c62e80192f5b445dcdaf88607987923120761c1388eeb243d",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/OpenAI/OpenAI.list"
+  },
+  "proxy": {
+    "kind": "filter",
+    "path": "upstream/filter/proxy.list",
+    "rules": 7447,
+    "sha256": "59f44091fb8969bfa90f298bb3d6e37dd65d56f73820a22d51f3d8806931562b",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy.list"
+  },
+  "script-c9641bcbfac07130d01d": {
+    "kind": "script",
+    "path": "upstream/script/script-c9641bcbfac07130d01d.js",
+    "rules": 0,
+    "sha256": "41863c4c0ce5eefbdda9a5a96d7605bde70a89a9cc24ee0875f3d751aed2f757",
+    "url": "https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js"
+  },
+  "script-d5247c524b30729d155b": {
+    "kind": "script",
+    "path": "upstream/script/script-d5247c524b30729d155b.js",
+    "rules": 0,
+    "sha256": "431801d369b495d34b7a1c1d6cc43abdb1d159dd0d82491ee756c0ae834b625c",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js"
+  },
+  "telegram": {
+    "kind": "filter",
+    "path": "upstream/filter/telegram.list",
+    "rules": 40,
+    "sha256": "986f8e7d587ce42c3bb472e6a2e9cffd42a413240d32c02cc363c4d6367141fe",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list"
+  }
+}

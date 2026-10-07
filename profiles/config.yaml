@@ -1,7 +1,9 @@
-# 顺序就是远程分流资源的输出顺序。自维护规则始终在上游规则之前。
+version: 2
 repository: Ethereal-09/quantumultx-rules
 branch: main
 template: templates/QuantumultX.conf
+sources: sources/manifest.yaml
+overrides: overrides/changes.yaml
 policy_map:
   proxy: 节点选择
   direct: direct
@@ -13,30 +15,5 @@ custom:
     file: rules/proxy.list
   - id: custom-reject
     file: rules/reject.list
-sources:
-  - id: direct-upstream
-    name: Direct
-    policy: direct
-  - id: advertising
-    name: AdvertisingLite
-    policy: reject
-  - id: apple
-    name: Apple
-    policy: 苹果服务
-  - id: openai
-    name: OpenAI
-    policy: AI服务
-  - id: github
-    name: GitHub
-    policy: 节点选择
-  - id: telegram
-    name: Telegram
-    policy: 节点选择
-  - id: proxy
-    name: Proxy
-    policy: 节点选择
-# 只接受原生 Quantumult X 重写资源；此处的外部脚本不会递归镜像。
-rewrite_remote: []
-# 示例（取消注释并放入上面的列表后生效）：
-# - url: https://example.com/native-qx-rewrite.conf
-#   tag: 自定义重写
+rewrite_local: rules/rewrite.list
+mitm_hosts: rules/mitm-hosts.list

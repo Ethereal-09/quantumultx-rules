@@ -1,0 +1,310 @@
+{
+  "conflicts": {
+    "count": 23,
+    "sample": [
+      {
+        "first_policy": "direct",
+        "first_source": "direct-upstream",
+        "match": [
+          "host",
+          "ad.10010.com"
+        ],
+        "policy": "reject",
+        "source": "advertising"
+      },
+      {
+        "first_policy": "direct",
+        "first_source": "direct-upstream",
+        "match": [
+          "host",
+          "itunes.apple.com"
+        ],
+        "policy": "苹果服务",
+        "source": "apple"
+      },
+      {
+        "first_policy": "direct",
+        "first_source": "direct-upstream",
+        "match": [
+          "host",
+          "init.ess.apple.com"
+        ],
+        "policy": "苹果服务",
+        "source": "apple"
+      },
+      {
+        "first_policy": "direct",
+        "first_source": "direct-upstream",
+        "match": [
+          "host",
+          "smp-device-content.apple.com"
+        ],
+        "policy": "苹果服务",
+        "source": "apple"
+      },
+      {
+        "first_policy": "reject",
+        "first_source": "advertising",
+        "match": [
+          "host-suffix",
+          "crashlytics.com"
+        ],
+        "policy": "苹果服务",
+        "source": "apple"
+      },
+      {
+        "first_policy": "direct",
+        "first_source": "direct-upstream",
+        "match": [
+          "host-keyword",
+          "buy.itunes.apple.com"
+        ],
+        "policy": "苹果服务",
+        "source": "apple"
+      },
+      {
+        "first_policy": "reject",
+        "first_source": "advertising",
+        "match": [
+          "host-suffix",
+          "sentry.io"
+        ],
+        "policy": "AI服务",
+        "source": "openai"
+      },
+      {
+        "first_policy": "reject",
+        "first_source": "advertising",
+        "match": [
+          "host",
+          "cdp.cloud.unity3d.com"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "苹果服务",
+        "first_source": "apple",
+        "match": [
+          "host",
+          "cvws.icloud-content.com"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "苹果服务",
+        "first_source": "apple",
+        "match": [
+          "host",
+          "developer.apple.com"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "苹果服务",
+        "first_source": "apple",
+        "match": [
+          "host",
+          "testflight.apple.com"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "direct",
+        "first_source": "direct-upstream",
+        "match": [
+          "host-suffix",
+          "acg.rip"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "reject",
+        "first_source": "advertising",
+        "match": [
+          "host-suffix",
+          "admob.com"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "苹果服务",
+        "first_source": "apple",
+        "match": [
+          "host-suffix",
+          "apple-dns.net"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "苹果服务",
+        "first_source": "apple",
+        "match": [
+          "host-suffix",
+          "appsto.re"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "direct",
+        "first_source": "direct-upstream",
+        "match": [
+          "host-suffix",
+          "avistaz.to"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "reject",
+        "first_source": "advertising",
+        "match": [
+          "host-suffix",
+          "crashlytics.com"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "苹果服务",
+        "first_source": "apple",
+        "match": [
+          "host-suffix",
+          "digicert.com"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "direct",
+        "first_source": "direct-upstream",
+        "match": [
+          "host-suffix",
+          "hdsky.me"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "苹果服务",
+        "first_source": "apple",
+        "match": [
+          "host-suffix",
+          "itun.es"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "direct",
+        "first_source": "direct-upstream",
+        "match": [
+          "host-suffix",
+          "sciencemag.org"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "苹果服务",
+        "first_source": "apple",
+        "match": [
+          "host-suffix",
+          "shazam.com"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      },
+      {
+        "first_policy": "苹果服务",
+        "first_source": "apple",
+        "match": [
+          "user-agent",
+          "com.apple.trustd*"
+        ],
+        "policy": "节点选择",
+        "source": "proxy"
+      }
+    ]
+  },
+  "custom_shadows": [
+    {
+      "before": "host-suffix, doubleclick.net, reject",
+      "custom": "host-suffix, doubleclick.net, reject",
+      "source": "advertising"
+    },
+    {
+      "before": "host-suffix, github.com, 节点选择",
+      "custom": "host-suffix, github.com, 节点选择",
+      "source": "github"
+    },
+    {
+      "before": "host-suffix, github.com, 节点选择",
+      "custom": "host-suffix, github.com, 节点选择",
+      "source": "proxy"
+    }
+  ],
+  "overrides": [
+    {
+      "action": "remove",
+      "changes": [
+        {
+          "after": null,
+          "before": "^https?:\\/\\/homepage-api\\.smzdm\\.com\\/v3\\/home url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js",
+          "source": "advertising-script"
+        },
+        {
+          "after": null,
+          "before": "^https?:\\/\\/baike-api\\.smzdm\\.com\\/home_v3\\/list url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js",
+          "source": "advertising-script"
+        },
+        {
+          "after": null,
+          "before": "^https?:\\/\\/s-api\\.smzdm\\.com\\/sou\\/list_v10 url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js",
+          "source": "advertising-script"
+        },
+        {
+          "after": null,
+          "before": "^https?:\\/\\/s-api\\.smzdm\\.com\\/sou\\/filter\\/tags\\/hot_tags url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js",
+          "source": "advertising-script"
+        },
+        {
+          "after": null,
+          "before": "^https?:\\/\\/app-api\\.smzdm\\.com\\/util\\/loading url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js",
+          "source": "advertising-script"
+        },
+        {
+          "after": null,
+          "before": "^https?:\\/\\/haojia\\.m\\.smzdm\\.com\\/detail_modul\\/article_releated_modul url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js",
+          "source": "advertising-script"
+        },
+        {
+          "after": null,
+          "before": "^https?:\\/\\/haojia-api\\.smzdm\\.com\\/home\\/list\\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js",
+          "source": "advertising-script"
+        },
+        {
+          "after": null,
+          "before": "^https?:\\/\\/zhiyou\\.m\\.smzdm\\.com\\/user\\/vip\\/ajax_get_banner url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js",
+          "source": "advertising-script"
+        }
+      ],
+      "id": "exclude-missing-smzdm-script",
+      "kind": "rewrites",
+      "matches": 8
+    }
+  ],
+  "version": 1,
+  "warnings": [
+    "advertising-script: 脚本内含 3 个 URL 文本；需审查 dependencies.json，不宣称全部离线",
+    "advertising-script: 脚本内含 2 个 URL 文本；需审查 dependencies.json，不宣称全部离线",
+    "跨来源存在 23 个相同匹配的不同策略；未自动按排序选取胜者"
+  ]
+}

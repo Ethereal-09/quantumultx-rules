@@ -1,0 +1,36 @@
+# 写法示例，不会自动加载。域名和脚本地址均为占位符。
+version: 1
+filters:
+  - id: remove-false-positive
+    sources: [advertising]
+    action: remove
+    match: {type: host-suffix, value: example.com}
+    expected_matches: 1
+  - id: change-one-policy
+    sources: [github]
+    action: replace
+    match: {type: host, value: api.example.com}
+    rule: host, api.example.com, direct
+    expected_matches: 1
+  - id: add-own-rule
+    sources: [custom-proxy]
+    action: add
+    rule: host-suffix, example.org, proxy
+rewrites:
+  - id: remove-one-rewrite
+    sources: [advertising-rewrite]
+    action: remove
+    match: {pattern: '^https://api\.example\.com/ads$', action: reject-200}
+    expected_matches: 1
+  - id: replace-script
+    sources: [advertising-script]
+    action: replace-script
+    match: {script_url: 'https://example.com/original.js'}
+    script_url: https://example.com/my-version.js#mode=lite
+    expected_matches: 1
+hostnames:
+  - id: remove-hostname
+    sources: [advertising-rewrite]
+    action: remove
+    value: api.example.com
+    expected_matches: 1

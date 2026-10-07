@@ -1,0 +1,71 @@
+# 这里只描述原始来源。个人修改放 overrides/changes.yaml。
+version: 1
+sources:
+  - id: direct-upstream
+    kind: filter
+    format: quantumultx
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Direct/Direct.list
+    policy: direct
+    license: licenses/GPL-2.0.txt
+  - id: advertising
+    kind: filter
+    format: quantumultx
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingLite/AdvertisingLite.list
+    policy: reject
+    license: licenses/GPL-2.0.txt
+  - id: apple
+    kind: filter
+    format: quantumultx
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list
+    policy: 苹果服务
+    license: licenses/GPL-2.0.txt
+  - id: openai
+    kind: filter
+    format: quantumultx
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/OpenAI/OpenAI.list
+    policy: AI服务
+    license: licenses/GPL-2.0.txt
+  - id: github
+    kind: filter
+    format: quantumultx
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GitHub/GitHub.list
+    policy: 节点选择
+    license: licenses/GPL-2.0.txt
+  - id: telegram
+    kind: filter
+    format: quantumultx
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list
+    policy: 节点选择
+    license: licenses/GPL-2.0.txt
+  - id: proxy
+    kind: filter
+    format: quantumultx
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy.list
+    policy: 节点选择
+    license: licenses/GPL-2.0.txt
+  - id: advertising-rewrite-filter
+    kind: filter
+    format: quantumultx
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingLite/AdvertisingLite.list
+    policy: reject
+    license: licenses/GPL-2.0.txt
+  - id: advertising-script-filter
+    kind: filter
+    format: quantumultx
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingScript/AdvertisingScript.list
+    policy: reject
+    license: licenses/GPL-2.0.txt
+  - id: advertising-rewrite
+    kind: rewrite
+    format: quantumultx
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingLite/AdvertisingLite.conf
+    scripts: mirror
+    requires: [advertising-rewrite-filter]
+    license: licenses/GPL-2.0.txt
+  - id: advertising-script
+    kind: rewrite
+    format: quantumultx
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingScript/AdvertisingScript.conf
+    scripts: mirror
+    requires: [advertising-script-filter]
+    license: licenses/GPL-2.0.txt

@@ -12,6 +12,9 @@ on:
       - 'profiles/**'
       - 'templates/**'
       - 'rules/**'
+      - 'sources/**'
+      - 'overrides/**'
+      - 'licenses/**'
       - 'requirements.txt'
       - '.github/workflows/build.yml'
   pull_request:
@@ -21,7 +24,10 @@ on:
       - 'profiles/**'
       - 'templates/**'
       - 'rules/**'
-      - 'vendor/**'
+      - 'sources/**'
+      - 'overrides/**'
+      - 'licenses/**'
+      - 'upstream/**'
       - 'dist/**'
       - 'requirements.txt'
       - '.github/workflows/build.yml'
@@ -48,6 +54,11 @@ jobs:
       - run: python -m unittest discover -s tests -v
       - run: python src/build.py --offline
       - run: python src/build.py --offline --check
+      - name: Validate mirrored JavaScript syntax
+        run: |
+          if [ -d dist/scripts ]; then
+            while IFS= read -r -d '' script; do node --check "$script"; done < <(find dist/scripts -name '*.js' -print0)
+          fi
   publish:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: verify
@@ -64,11 +75,16 @@ jobs:
       - name: Refresh and validate all sources
         run: python src/build.py --strict
       - run: python src/build.py --offline --check
+      - name: Validate mirrored JavaScript syntax
+        run: |
+          if [ -d dist/scripts ]; then
+            while IFS= read -r -d '' script; do node --check "$script"; done < <(find dist/scripts -name '*.js' -print0)
+          fi
       - name: Commit validated output
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add dist vendor
+          git add dist upstream
           if ! git diff --cached --quiet; then
             git commit -m 'chore: update Quantumult X rules'
             git push origin HEAD:main

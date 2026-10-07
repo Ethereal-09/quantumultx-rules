@@ -1,0 +1,20 @@
+{
+  "filter_remote": [
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rules/custom-direct.list, tag=custom-direct, update-interval=86400, opt-parser=false, enabled=true",
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rules/custom-proxy.list, tag=custom-proxy, update-interval=86400, opt-parser=false, enabled=true",
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rules/custom-reject.list, tag=custom-reject, update-interval=86400, opt-parser=false, enabled=true",
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rules/direct-upstream.list, tag=direct-upstream, update-interval=86400, opt-parser=false, enabled=true",
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rules/advertising.list, tag=advertising, update-interval=86400, opt-parser=false, enabled=true",
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rules/apple.list, tag=apple, update-interval=86400, opt-parser=false, enabled=true",
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rules/openai.list, tag=openai, update-interval=86400, opt-parser=false, enabled=true",
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rules/github.list, tag=github, update-interval=86400, opt-parser=false, enabled=true",
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rules/telegram.list, tag=telegram, update-interval=86400, opt-parser=false, enabled=true",
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rules/proxy.list, tag=proxy, update-interval=86400, opt-parser=false, enabled=true",
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rules/advertising-rewrite-filter.list, tag=advertising-rewrite-filter, update-interval=86400, opt-parser=false, enabled=true",
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rules/advertising-script-filter.list, tag=advertising-script-filter, update-interval=86400, opt-parser=false, enabled=true"
+  ],
+  "rewrite_remote": [
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rewrites/advertising-rewrite.conf, tag=advertising-rewrite, update-interval=86400, opt-parser=false, enabled=true",
+    "https://raw.githubusercontent.com/Ethereal-09/quantumultx-rules/main/dist/rewrites/advertising-script.conf, tag=advertising-script, update-interval=86400, opt-parser=false, enabled=true"
+  ]
+}

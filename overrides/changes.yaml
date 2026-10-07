@@ -1,0 +1,14 @@
+# 每次同步后重新应用。目标缺失或命中数量变化会终止生成。
+# examples/overrides.example.yaml 提供完整写法；这里只排除已核实失效的依赖。
+version: 1
+filters: []
+rewrites:
+  # 2026-10-07：上游脚本 URL 与 script/smzdm 目录均返回 404。
+  # 保留原始快照，仅从生成的重写中排除这 8 条失效引用。
+  - id: exclude-missing-smzdm-script
+    sources: [advertising-script]
+    action: remove
+    match:
+      script_url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+    expected_matches: 8
+hostnames: []
