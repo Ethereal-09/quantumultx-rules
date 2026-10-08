@@ -1,6 +1,6 @@
 {
   "counts": {
-    "filters": 48117,
+    "filters": 48149,
     "rewrites": 1263,
     "scripts": 2
   },
@@ -978,7 +978,7 @@
       "kind": "filter",
       "path": "dist/rules/apple.list",
       "rules": 1881,
-      "sha256": "455bcdac32d2f6463aa238a185c23bd21e2224e73f3c6720d5117de0e20ed991",
+      "sha256": "c3785201917e54d1957865ac4c1d2909ed716b917551a5c9f0c864895cb06d4f",
       "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list"
     },
     "custom-direct": {
@@ -1034,8 +1034,8 @@
     "proxy": {
       "kind": "filter",
       "path": "dist/rules/proxy.list",
-      "rules": 7446,
-      "sha256": "052ac38118d4209570a11d8dec8385c1ffd4739fbe3cd372df0aaccda6e0025f",
+      "rules": 7478,
+      "sha256": "cdd4fd5692124f8166009073a6ec82da1c152bf9d79e5e016a9dc8649aff798c",
       "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy.list"
     },
     "script-c9641bcbfac07130d01d": {

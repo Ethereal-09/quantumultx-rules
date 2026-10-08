@@ -4,14 +4,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-10-06 07:37:05
+# UPDATED: 2026-10-08 06:31:59
 # HOST: 20
 # HOST-KEYWORD: 26
-# HOST-SUFFIX: 7293
+# HOST-SUFFIX: 7325
 # IP-CIDR: 96
 # IP6-CIDR: 4
 # USER-AGENT: 8
-# TOTAL: 7447
+# TOTAL: 7479
 host, api.msn.com, 节点选择
 host, api.waqi.info, 节点选择
 host, aqi.aqicn.org, 节点选择
@@ -264,6 +264,7 @@ host-suffix, ai-kan.net, 节点选择
 host-suffix, ai-wen.net, 节点选择
 host-suffix, ai.dev, 节点选择
 host-suffix, ai.studio, 节点选择
+host-suffix, aidc.com.tw, 节点选择
 host-suffix, aihub.top, 节点选择
 host-suffix, aiosearch.com, 节点选择
 host-suffix, aiph.net, 节点选择
@@ -843,6 +844,7 @@ host-suffix, bloomberg.de, 节点选择
 host-suffix, bloombergview.com, 节点选择
 host-suffix, bloomfortune.com, 节点选择
 host-suffix, blubrry.com, 节点选择
+host-suffix, blue-plus.net, 节点选择
 host-suffix, blueangellive.com, 节点选择
 host-suffix, bmdru.com, 节点选择
 host-suffix, bmfinn.com, 节点选择
@@ -880,6 +882,7 @@ host-suffix, boxunblog.com, 节点选择
 host-suffix, boxunclub.com, 节点选择
 host-suffix, boyangu.com, 节点选择
 host-suffix, boyfriendtv.com, 节点选择
+host-suffix, boylove.cc, 节点选择
 host-suffix, boysfood.com, 节点选择
 host-suffix, boysmaster.com, 节点选择
 host-suffix, br.st, 节点选择
@@ -1002,6 +1005,7 @@ host-suffix, cams.com, 节点选择
 host-suffix, cams.org.sg, 节点选择
 host-suffix, canadameet.com, 节点选择
 host-suffix, canalporno.com, 节点选择
+host-suffix, cangku.moe, 节点选择
 host-suffix, cantonese.asia, 节点选择
 host-suffix, canva.com, 节点选择
 host-suffix, canyu.org, 节点选择
@@ -1373,6 +1377,7 @@ host-suffix, counter.social, 节点选择
 host-suffix, coursehero.com, 节点选择
 host-suffix, covenantswatch.org.tw, 节点选择
 host-suffix, coze.com, 节点选择
+host-suffix, cpc.com.tw, 节点选择
 host-suffix, cpj.org, 节点选择
 host-suffix, cpu-monkey.com, 节点选择
 host-suffix, cq99.us, 节点选择
@@ -1402,6 +1407,7 @@ host-suffix, crucial.com, 节点选择
 host-suffix, crunchyroll.com, 节点选择
 host-suffix, cruxpool.com, 节点选择
 host-suffix, cryptographyengineering.com, 节点选择
+host-suffix, csc.com.tw, 节点选择
 host-suffix, csdparty.com, 节点选择
 host-suffix, csis.org, 节点选择
 host-suffix, csmonitor.com, 节点选择
@@ -1555,6 +1561,7 @@ host-suffix, devpn.com, 节点选择
 host-suffix, devv.ai, 节点选择
 host-suffix, dfas.mil, 节点选择
 host-suffix, dfn.org, 节点选择
+host-suffix, dh.net, 节点选择
 host-suffix, dharamsalanet.com, 节点选择
 host-suffix, dharmakara.net, 节点选择
 host-suffix, dhcp.biz, 节点选择
@@ -1914,6 +1921,7 @@ host-suffix, exblog.jp, 节点选择
 host-suffix, exchristian.hk, 节点选择
 host-suffix, excite.co.jp, 节点选择
 host-suffix, exhentai.org, 节点选择
+host-suffix, eximbank.com.tw, 节点选择
 host-suffix, exmo.com, 节点选择
 host-suffix, exmormon.org, 节点选择
 host-suffix, expatshield.com, 节点选择
@@ -2937,7 +2945,9 @@ host-suffix, hakkatv.org.tw, 节点选择
 host-suffix, halktv.com.tr, 节点选择
 host-suffix, handcraftedsoftware.org, 节点选择
 host-suffix, hanime.tv, 节点选择
+host-suffix, hanime1.com, 节点选择
 host-suffix, hanime1.me, 节点选择
+host-suffix, hanimeone.me, 节点选择
 host-suffix, hanminzu.org, 节点选择
 host-suffix, hanunyi.com, 节点选择
 host-suffix, hao.news, 节点选择
@@ -2984,6 +2994,7 @@ host-suffix, helpzhuling.org, 节点选择
 host-suffix, hembed.com, 节点选择
 host-suffix, hentai.to, 节点选择
 host-suffix, hentai.tv, 节点选择
+host-suffix, hentaiclub.net, 节点选择
 host-suffix, hentaitube.tv, 节点选择
 host-suffix, hentaivideoworld.com, 节点选择
 host-suffix, heqinglian.net, 节点选择
@@ -3244,6 +3255,7 @@ host-suffix, ibtimes.com, 节点选择
 host-suffix, ibvpn.com, 节点选择
 host-suffix, ibytedtos.com, 节点选择
 host-suffix, icams.com, 节点选择
+host-suffix, icdf.org.tw, 节点选择
 host-suffix, icedrive.net, 节点选择
 host-suffix, icerocket.com, 节点选择
 host-suffix, icfcdn.com, 节点选择
@@ -3374,6 +3386,7 @@ host-suffix, io.io, 节点选择
 host-suffix, iownyour.biz, 节点选择
 host-suffix, iownyour.org, 节点选择
 host-suffix, ip.sb, 节点选择
+host-suffix, ipac.global, 节点选择
 host-suffix, ipaddress.com, 节点选择
 host-suffix, ipalter.com, 节点选择
 host-suffix, ipdefenseforum.com, 节点选择
@@ -3482,6 +3495,7 @@ host-suffix, jav777.cc, 节点选择
 host-suffix, javakiba.org, 节点选择
 host-suffix, javbus.co, 节点选择
 host-suffix, javbus.com, 节点选择
+host-suffix, javchu.com, 节点选择
 host-suffix, javdb.com, 节点选择
 host-suffix, javfinder.ai, 节点选择
 host-suffix, javfor.me, 节点选择
@@ -3633,6 +3647,7 @@ host-suffix, keyhole.com, 节点选择
 host-suffix, kfor.com, 节点选择
 host-suffix, khabdha.org, 节点选择
 host-suffix, khatrimaza.org, 节点选择
+host-suffix, khc.edu.tw, 节点选择
 host-suffix, khmusic.com.tw, 节点选择
 host-suffix, kichiku-doujinko.com, 节点选择
 host-suffix, kik.com, 节点选择
@@ -3705,6 +3720,7 @@ host-suffix, lama.com.tw, 节点选择
 host-suffix, lamayeshe.com, 节点选择
 host-suffix, lamnia.co.uk, 节点选择
 host-suffix, lamrim.com, 节点选择
+host-suffix, landbank.com.tw, 节点选择
 host-suffix, landofhope.tv, 节点选择
 host-suffix, lantern.io, 节点选择
 host-suffix, lantosfoundation.org, 节点选择
@@ -3971,6 +3987,7 @@ host-suffix, material.io, 节点选择
 host-suffix, mathable.io, 节点选择
 host-suffix, mathiew-badimon.com, 节点选择
 host-suffix, mathjax.org, 节点选择
+host-suffix, matichon.co.th, 节点选择
 host-suffix, matome-plus.com, 节点选择
 host-suffix, matome-plus.net, 节点选择
 host-suffix, matrix.org, 节点选择
@@ -4106,12 +4123,15 @@ host-suffix, minzhuhua.net, 节点选择
 host-suffix, minzhuzhanxian.com, 节点选择
 host-suffix, minzhuzhongguo.org, 节点选择
 host-suffix, miraheze.org, 节点选择
+host-suffix, mirdc.org.tw, 节点选择
 host-suffix, miroguide.com, 节点选择
 host-suffix, mirror.xyz, 节点选择
 host-suffix, mirrorbooks.com, 节点选择
 host-suffix, mirrormedia.com.tw, 节点选择
 host-suffix, mirrormedia.mg, 节点选择
+host-suffix, missav.ai, 节点选择
 host-suffix, missav.com, 节点选择
+host-suffix, missav.live, 节点选择
 host-suffix, missav.ws, 节点选择
 host-suffix, mist.vip, 节点选择
 host-suffix, mistral.ai, 节点选择
@@ -4147,6 +4167,7 @@ host-suffix, modernchinastudies.org, 节点选择
 host-suffix, modmyi.com, 节点选择
 host-suffix, moeerolibrary.com, 节点选择
 host-suffix, moegirl.org, 节点选择
+host-suffix, moeli-desu.com, 节点选择
 host-suffix, moeshare.cc, 节点选择
 host-suffix, mofaxiehui.com, 节点选择
 host-suffix, mofos.com, 节点选择
@@ -4326,6 +4347,7 @@ host-suffix, nationalgeographic.com, 节点选择
 host-suffix, nationalinterest.org, 节点选择
 host-suffix, nationalreview.com, 节点选择
 host-suffix, nationsonline.org, 节点选择
+host-suffix, nationthailand.com, 节点选择
 host-suffix, nationwide.com, 节点选择
 host-suffix, naughtyamerica.com, 节点选择
 host-suffix, naver.com, 节点选择
@@ -4508,6 +4530,7 @@ host-suffix, ns1.name, 节点选择
 host-suffix, ns2.name, 节点选择
 host-suffix, ns3.name, 节点选择
 host-suffix, nssurge.com, 节点选择
+host-suffix, nstc.org.tw, 节点选择
 host-suffix, ntd.tv, 节点选择
 host-suffix, ntdtv.ca, 节点选择
 host-suffix, ntdtv.co.kr, 节点选择
@@ -4906,6 +4929,7 @@ host-suffix, pokemon.com, 节点选择
 host-suffix, pokerstars.com, 节点选择
 host-suffix, pokerstars.net, 节点选择
 host-suffix, pokerstrategy.com, 节点选择
+host-suffix, poland.tw, 节点选择
 host-suffix, politicalchina.org, 节点选择
 host-suffix, politicalconsultation.org, 节点选择
 host-suffix, politiscales.net, 节点选择
@@ -5069,6 +5093,7 @@ host-suffix, qiangyou.org, 节点选择
 host-suffix, qianmo.tw, 节点选择
 host-suffix, qidian.ca, 节点选择
 host-suffix, qienkuen.org, 节点选择
+host-suffix, qingse.one, 节点选择
 host-suffix, qiwen.lu, 节点选择
 host-suffix, qkshare.com, 节点选择
 host-suffix, qmp4.com, 节点选择
@@ -5235,6 +5260,7 @@ host-suffix, rocket.chat, 节点选择
 host-suffix, rocketbbs.com, 节点选择
 host-suffix, rocketcdn.me, 节点选择
 host-suffix, rocksdb.org, 节点选择
+host-suffix, rocmgov.org, 节点选择
 host-suffix, rojo.com, 节点选择
 host-suffix, rolfoundation.org, 节点选择
 host-suffix, rolia.net, 节点选择
@@ -5940,6 +5966,7 @@ host-suffix, tew.org, 节点选择
 host-suffix, textnow.com, 节点选择
 host-suffix, textnow.me, 节点选择
 host-suffix, tfc-taiwan.org.tw, 节点选择
+host-suffix, tfd.org.tw, 节点选择
 host-suffix, tfhub.dev, 节点选择
 host-suffix, tfiflve.com, 节点选择
 host-suffix, tg-me.com, 节点选择
@@ -6254,6 +6281,7 @@ host-suffix, tsu.org.tw, 节点选择
 host-suffix, tsunagarumon.com, 节点选择
 host-suffix, tt-rss.org, 节点选择
 host-suffix, tt1069.com, 节点选择
+host-suffix, ttl.com.tw, 节点选择
 host-suffix, tttan.com, 节点选择
 host-suffix, ttv.com.tw, 节点选择
 host-suffix, ttvnw.net, 节点选择
@@ -6349,6 +6377,7 @@ host-suffix, tweetymail.com, 节点选择
 host-suffix, tweez.net, 节点选择
 host-suffix, twelve.today, 节点选择
 host-suffix, twerkingbutt.com, 节点选择
+host-suffix, twfhcsec.com.tw, 节点选择
 host-suffix, twftp.org, 节点选择
 host-suffix, twgov.tw, 节点选择
 host-suffix, twgreatdaily.com, 节点选择
@@ -6430,6 +6459,7 @@ host-suffix, twyac.org, 节点选择
 host-suffix, tx.me, 节点选择
 host-suffix, txmblr.com, 节点选择
 host-suffix, txxx.com, 节点选择
+host-suffix, tybio.com.tw, 节点选择
 host-suffix, tycool.com, 节点选择
 host-suffix, typcn.com, 节点选择
 host-suffix, typekit.net, 节点选择
@@ -6730,6 +6760,7 @@ host-suffix, vrchat.com, 节点选择
 host-suffix, vrmtr.com, 节点选择
 host-suffix, vrporn.com, 节点选择
 host-suffix, vrsmash.com, 节点选择
+host-suffix, vscc.org.tw, 节点选择
 host-suffix, vsco.co, 节点选择
 host-suffix, vtunnel.com, 节点选择
 host-suffix, vuku.cc, 节点选择
@@ -7107,6 +7138,7 @@ host-suffix, xvideos-cdn.com, 节点选择
 host-suffix, xvideos.com, 节点选择
 host-suffix, xvideos.es, 节点选择
 host-suffix, xvinlink.com, 节点选择
+host-suffix, xx.net, 节点选择
 host-suffix, xxbbx.com, 节点选择
 host-suffix, xxlmovies.com, 节点选择
 host-suffix, xxuz.com, 节点选择
