@@ -978,7 +978,7 @@
       "kind": "filter",
       "path": "dist/rules/apple.list",
       "rules": 1881,
-      "sha256": "c3785201917e54d1957865ac4c1d2909ed716b917551a5c9f0c864895cb06d4f",
+      "sha256": "030f2b9ae564ee2ab3ebdf87423c6353cf44df3f1838cc6d82a28926923cfecd",
       "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list"
     },
     "custom-direct": {
