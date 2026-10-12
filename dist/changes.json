@@ -17,16 +17,6 @@
         "first_source": "direct-upstream",
         "match": [
           "host",
-          "itunes.apple.com"
-        ],
-        "policy": "苹果服务",
-        "source": "apple"
-      },
-      {
-        "first_policy": "direct",
-        "first_source": "direct-upstream",
-        "match": [
-          "host",
           "init.ess.apple.com"
         ],
         "policy": "苹果服务",
@@ -38,6 +28,16 @@
         "match": [
           "host",
           "smp-device-content.apple.com"
+        ],
+        "policy": "苹果服务",
+        "source": "apple"
+      },
+      {
+        "first_policy": "direct",
+        "first_source": "direct-upstream",
+        "match": [
+          "host",
+          "itunes.apple.com"
         ],
         "policy": "苹果服务",
         "source": "apple"

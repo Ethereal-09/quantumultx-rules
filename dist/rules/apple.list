@@ -4,7 +4,7 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-10-10 06:05:37
+# UPDATED: 2026-10-12 05:20:15
 # HOST: 272
 # HOST-KEYWORD: 7
 # HOST-SUFFIX: 1551
@@ -14,7 +14,6 @@
 # USER-AGENT: 23
 # TOTAL: 1881
 host, apps.apple.com, 苹果服务
-host, itunes.apple.com, 苹果服务
 host, a1.mzstatic.com, 苹果服务
 host, a2.mzstatic.com, 苹果服务
 host, a3.mzstatic.com, 苹果服务
@@ -246,7 +245,6 @@ host, audio-ssl.itunes.apple.com, 苹果服务
 host, audio.itunes.apple.com, 苹果服务
 host, mvod.itunes.apple.com, 苹果服务
 host, streamingaudio.itunes.apple.com, 苹果服务
-host, gspe1-ssl.ls.apple.com, 苹果服务
 host, news-client-search.apple.com, 苹果服务
 host, api-glb-sea.smoot.apple.com, 苹果服务
 host, apple.comscoreresearch.com, 苹果服务
@@ -257,6 +255,9 @@ host, developer.apple.com, 苹果服务
 host, devimages-cdn.apple.com, 苹果服务
 host, devstreaming-cdn.apple.com, 苹果服务
 host, docs-assets.developer.apple.com, 苹果服务
+host, gspe1-ssl.ls.apple.com, 苹果服务
+host, hls-svod.itunes.apple.com, 苹果服务
+host, itunes.apple.com, 苹果服务
 host, js-cdn.music.apple.com, 苹果服务
 host, lookup-api.apple.com, 苹果服务
 host, mask-api.fe.apple-dns.net, 苹果服务
@@ -280,7 +281,6 @@ host, fmfmobile.icloud.com, 苹果服务
 host, fmipmobile.icloud.com, 苹果服务
 host, statici.icloud.com, 苹果服务
 host, amp-api.fitness.apple.com, 苹果服务
-host, hls-svod.itunes.apple.com, 苹果服务
 host, guzzoni.apple.com, 苹果服务
 host, beta.apple.com, 苹果服务
 host, testflight.apple.com, 苹果服务
@@ -1795,7 +1795,6 @@ host-suffix, apple.news, 苹果服务
 host-suffix, appleenews.com, 苹果服务
 host-suffix, applemusic.berlin, 苹果服务
 host-suffix, applemusic.co, 苹果服务
-host-suffix, applemusic.com, 苹果服务
 host-suffix, applemusic.com.au, 苹果服务
 host-suffix, applemusic.hamburg, 苹果服务
 host-suffix, applemusic.wang, 苹果服务
@@ -1828,12 +1827,13 @@ host-suffix, iphoto.se, 苹果服务
 host-suffix, iphoto.wang, 苹果服务
 host-suffix, musickit.net, 苹果服务
 host-suffix, wwwapplemusic.com, 苹果服务
+host-suffix, applemusic.com, 苹果服务
 host-suffix, apple-dns.net, 苹果服务
+host-suffix, cdn-apple.com, 苹果服务
 host-suffix, digicert.com, 苹果服务
 host-suffix, apple-cloudkit.com, 苹果服务
 host-suffix, apple-livephotoskit.com, 苹果服务
 host-suffix, apzones.com, 苹果服务
-host-suffix, cdn-apple.com, 苹果服务
 host-suffix, icloud-content.com.cn, 苹果服务
 host-suffix, icloud.cn, 苹果服务
 host-wildcard, *-content.icloud.com.cn, 苹果服务
