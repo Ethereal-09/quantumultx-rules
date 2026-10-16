@@ -4,7 +4,7 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-10-14 06:10:06
+# UPDATED: 2026-10-16 04:49:04
 # HOST: 272
 # HOST-KEYWORD: 7
 # HOST-SUFFIX: 1551
@@ -14,6 +14,7 @@
 # USER-AGENT: 23
 # TOTAL: 1881
 host, apps.apple.com, 苹果服务
+host, itunes.apple.com, 苹果服务
 host, a1.mzstatic.com, 苹果服务
 host, a2.mzstatic.com, 苹果服务
 host, a3.mzstatic.com, 苹果服务
@@ -245,6 +246,7 @@ host, audio-ssl.itunes.apple.com, 苹果服务
 host, audio.itunes.apple.com, 苹果服务
 host, mvod.itunes.apple.com, 苹果服务
 host, streamingaudio.itunes.apple.com, 苹果服务
+host, gspe1-ssl.ls.apple.com, 苹果服务
 host, news-client-search.apple.com, 苹果服务
 host, api-glb-sea.smoot.apple.com, 苹果服务
 host, apple.comscoreresearch.com, 苹果服务
@@ -255,10 +257,6 @@ host, developer.apple.com, 苹果服务
 host, devimages-cdn.apple.com, 苹果服务
 host, devstreaming-cdn.apple.com, 苹果服务
 host, docs-assets.developer.apple.com, 苹果服务
-host, gspe1-ssl.ls.apple.com, 苹果服务
-host, hls-svod.itunes.apple.com, 苹果服务
-host, hls.itunes.apple.com, 苹果服务
-host, itunes.apple.com, 苹果服务
 host, js-cdn.music.apple.com, 苹果服务
 host, lookup-api.apple.com, 苹果服务
 host, mask-api.fe.apple-dns.net, 苹果服务
@@ -271,17 +269,19 @@ host, news-assets.apple.com, 苹果服务
 host, news-client.apple.com, 苹果服务
 host, news-edge.apple.com, 苹果服务
 host, news-events.apple.com, 苹果服务
-host, np-edge.itunes.apple.com, 苹果服务
-host, play-edge.itunes.apple.com, 苹果服务
 host, sandbox.itunes.apple.com, 苹果服务
 host, testflight.apple.com, 苹果服务
+host, hls-amt.itunes.apple.com, 苹果服务
+host, hls.itunes.apple.com, 苹果服务
+host, np-edge.itunes.apple.com, 苹果服务
+host, play-edge.itunes.apple.com, 苹果服务
 host, tv.applemusic.com, 苹果服务
 host, uts-api.itunes.apple.com, 苹果服务
-host, hls-amt.itunes.apple.com, 苹果服务
 host, fmfmobile.icloud.com, 苹果服务
 host, fmipmobile.icloud.com, 苹果服务
 host, statici.icloud.com, 苹果服务
 host, amp-api.fitness.apple.com, 苹果服务
+host, hls-svod.itunes.apple.com, 苹果服务
 host, guzzoni.apple.com, 苹果服务
 host, beta.apple.com, 苹果服务
 host, www-cdn.icloud.com.akadns.net, 苹果服务
@@ -1740,10 +1740,10 @@ host-suffix, ukipad.com, 苹果服务
 host-suffix, wwwipodlounge.com, 苹果服务
 host-suffix, wwwmacbookair.com, 苹果服务
 host-suffix, apple.comscoreresearch.com, 苹果服务
+host-suffix, apple.news, 苹果服务
 host-suffix, appleenews.com, 苹果服务
 host-suffix, applemusic.berlin, 苹果服务
 host-suffix, applemusic.co, 苹果服务
-host-suffix, applemusic.com, 苹果服务
 host-suffix, applemusic.com.au, 苹果服务
 host-suffix, applemusic.hamburg, 苹果服务
 host-suffix, applemusic.wang, 苹果服务
@@ -1776,10 +1776,9 @@ host-suffix, iphoto.se, 苹果服务
 host-suffix, iphoto.wang, 苹果服务
 host-suffix, musickit.net, 苹果服务
 host-suffix, wwwapplemusic.com, 苹果服务
+host-suffix, applemusic.com, 苹果服务
 host-suffix, apple-dns.net, 苹果服务
-host-suffix, apple.news, 苹果服务
 host-suffix, appsto.re, 苹果服务
-host-suffix, cdn-apple.com, 苹果服务
 host-suffix, digicert.com, 苹果服务
 host-suffix, apple-cloudkit.com, 苹果服务
 host-suffix, apple-icloud.cn, 苹果服务
@@ -1787,6 +1786,7 @@ host-suffix, apple-livephotoskit.com, 苹果服务
 host-suffix, appleicloud.cn, 苹果服务
 host-suffix, applemx-icloud.com, 苹果服务
 host-suffix, apzones.com, 苹果服务
+host-suffix, cdn-apple.com, 苹果服务
 host-suffix, icloud-apple.cn, 苹果服务
 host-suffix, icloud-content.com, 苹果服务
 host-suffix, icloud-content.com.cn, 苹果服务
@@ -1877,9 +1877,9 @@ user-agent, locationd*, 苹果服务
 user-agent, passd*, 苹果服务
 user-agent, Music*, 苹果服务
 user-agent, AppleNews*, 苹果服务
-user-agent, AppleTV*, 苹果服务
 user-agent, com.apple.news*, 苹果服务
 user-agent, com.apple.trustd*, 苹果服务
+user-agent, AppleTV*, 苹果服务
 user-agent, com.apple.tv*, 苹果服务
 ip-cidr, 139.178.128.0/18, 苹果服务
 ip-cidr, 144.178.0.0/19, 苹果服务
