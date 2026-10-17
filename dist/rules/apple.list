@@ -4,7 +4,7 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-10-16 04:49:04
+# UPDATED: 2026-10-18 03:57:38
 # HOST: 272
 # HOST-KEYWORD: 7
 # HOST-SUFFIX: 1551
@@ -270,7 +270,6 @@ host, news-client.apple.com, 苹果服务
 host, news-edge.apple.com, 苹果服务
 host, news-events.apple.com, 苹果服务
 host, sandbox.itunes.apple.com, 苹果服务
-host, testflight.apple.com, 苹果服务
 host, hls-amt.itunes.apple.com, 苹果服务
 host, hls.itunes.apple.com, 苹果服务
 host, np-edge.itunes.apple.com, 苹果服务
@@ -284,6 +283,7 @@ host, amp-api.fitness.apple.com, 苹果服务
 host, hls-svod.itunes.apple.com, 苹果服务
 host, guzzoni.apple.com, 苹果服务
 host, beta.apple.com, 苹果服务
+host, testflight.apple.com, 苹果服务
 host, www-cdn.icloud.com.akadns.net, 苹果服务
 host-suffix, 100beatscheap.com, 苹果服务
 host-suffix, 1monsterbeatsbydreus.com, 苹果服务
@@ -1465,6 +1465,7 @@ host-suffix, applepaysupplies.net, 苹果服务
 host-suffix, applepaysupplies.tv, 苹果服务
 host-suffix, applewallet.com, 苹果服务
 host-suffix, applewallet.tv, 苹果服务
+host-suffix, appsto.re, 苹果服务
 host-suffix, appstore.co.id, 苹果服务
 host-suffix, appstore.com, 苹果服务
 host-suffix, appstore.hk, 苹果服务
@@ -1744,6 +1745,7 @@ host-suffix, apple.news, 苹果服务
 host-suffix, appleenews.com, 苹果服务
 host-suffix, applemusic.berlin, 苹果服务
 host-suffix, applemusic.co, 苹果服务
+host-suffix, applemusic.com, 苹果服务
 host-suffix, applemusic.com.au, 苹果服务
 host-suffix, applemusic.hamburg, 苹果服务
 host-suffix, applemusic.wang, 苹果服务
@@ -1776,9 +1778,7 @@ host-suffix, iphoto.se, 苹果服务
 host-suffix, iphoto.wang, 苹果服务
 host-suffix, musickit.net, 苹果服务
 host-suffix, wwwapplemusic.com, 苹果服务
-host-suffix, applemusic.com, 苹果服务
 host-suffix, apple-dns.net, 苹果服务
-host-suffix, appsto.re, 苹果服务
 host-suffix, digicert.com, 苹果服务
 host-suffix, apple-cloudkit.com, 苹果服务
 host-suffix, apple-icloud.cn, 苹果服务
