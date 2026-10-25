@@ -4,14 +4,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-10-18 03:59:31
+# UPDATED: 2026-10-26 04:16:32
 # HOST: 20
 # HOST-KEYWORD: 26
-# HOST-SUFFIX: 7328
+# HOST-SUFFIX: 7348
 # IP-CIDR: 96
 # IP6-CIDR: 4
 # USER-AGENT: 8
-# TOTAL: 7482
+# TOTAL: 7502
 host, api.msn.com, 节点选择
 host, api.waqi.info, 节点选择
 host, aqi.aqicn.org, 节点选择
@@ -45,6 +45,7 @@ host-suffix, 10musume.com, 节点选择
 host-suffix, 111666.best, 节点选择
 host-suffix, 123av.com, 节点选择
 host-suffix, 123av.me, 节点选择
+host-suffix, 123av.org, 节点选择
 host-suffix, 123rf.com, 节点选择
 host-suffix, 12bet.com, 节点选择
 host-suffix, 12vpn.com, 节点选择
@@ -688,6 +689,7 @@ host-suffix, biblesforamerica.org, 节点选择
 host-suffix, bibliocommons.com, 节点选择
 host-suffix, bibox.com, 节点选择
 host-suffix, bic2011.org, 节点选择
+host-suffix, bidobido.xyz, 节点选择
 host-suffix, biedian.me, 节点选择
 host-suffix, big.one, 节点选择
 host-suffix, bigfools.com, 节点选择
@@ -697,6 +699,8 @@ host-suffix, bigmoney.biz, 节点选择
 host-suffix, bignews.org, 节点选择
 host-suffix, bigone.com, 节点选择
 host-suffix, bigsound.org, 节点选择
+host-suffix, bikaios.xyz, 节点选择
+host-suffix, bikawebapp.com, 节点选择
 host-suffix, bild.de, 节点选择
 host-suffix, bilinovel.com, 节点选择
 host-suffix, biliworld.com, 节点选择
@@ -1357,6 +1361,7 @@ host-suffix, compileheart.com, 节点选择
 host-suffix, compose-spec.io, 节点选择
 host-suffix, compress.to, 节点选择
 host-suffix, conoha.jp, 节点选择
+host-suffix, console.typesafe.ai, 节点选择
 host-suffix, constitutionalism.solutions, 节点选择
 host-suffix, contactmagazine.net, 节点选择
 host-suffix, content.office.net, 节点选择
@@ -1599,6 +1604,7 @@ host-suffix, disqus.com, 节点选择
 host-suffix, disquscdn.com, 节点选择
 host-suffix, dit-inc.us, 节点选择
 host-suffix, divdyn.com, 节点选择
+host-suffix, diwodiwo.xyz, 节点选择
 host-suffix, diyin.org, 节点选择
 host-suffix, dizhidizhi.com, 节点选择
 host-suffix, dizhuzhishang.com, 节点选择
@@ -2337,6 +2343,7 @@ host-suffix, g.co, 节点选择
 host-suffix, g.kfd.me, 节点选择
 host-suffix, g0v.social, 节点选择
 host-suffix, g6hentai.com, 节点选择
+host-suffix, ga.jspm.io, 节点选择
 host-suffix, gab.com, 节点选择
 host-suffix, gabia.net, 节点选择
 host-suffix, gabocorp.com, 节点选择
@@ -3179,6 +3186,7 @@ host-suffix, https443.org, 节点选择
 host-suffix, htx.com, 节点选择
 host-suffix, hua-yue.net, 节点选择
 host-suffix, huaglad.com, 节点选择
+host-suffix, huakacomic.com, 节点选择
 host-suffix, huanghuagang.org, 节点选择
 host-suffix, huangyiyu.com, 节点选择
 host-suffix, huaren.us, 节点选择
@@ -3653,6 +3661,7 @@ host-suffix, khmusic.com.tw, 节点选择
 host-suffix, kichiku-doujinko.com, 节点选择
 host-suffix, kik.com, 节点选择
 host-suffix, killwall.com, 节点选择
+host-suffix, kimootoko.net, 节点选择
 host-suffix, kindle4rss.com, 节点选择
 host-suffix, kindleren.com, 节点选择
 host-suffix, kingdomsalvation.org, 节点选择
@@ -3954,6 +3963,7 @@ host-suffix, mangafox.com, 节点选择
 host-suffix, mangafox.me, 节点选择
 host-suffix, mangaup.jp, 节点选择
 host-suffix, mangmang.run, 节点选择
+host-suffix, manhuabika.com, 节点选择
 host-suffix, manhuaren.com, 节点选择
 host-suffix, maniash.com, 节点选择
 host-suffix, manicur4ik.ru, 节点选择
@@ -4122,6 +4132,7 @@ host-suffix, minhhue.net, 节点选择
 host-suffix, miniforum.org, 节点选择
 host-suffix, miningpoolhub.com, 节点选择
 host-suffix, ministrybooks.org, 节点选择
+host-suffix, minkch.com, 节点选择
 host-suffix, minzhuhua.net, 节点选择
 host-suffix, minzhuzhanxian.com, 节点选择
 host-suffix, minzhuzhongguo.org, 节点选择
@@ -4214,6 +4225,7 @@ host-suffix, motor4ik.ru, 节点选择
 host-suffix, mousebreaker.com, 节点选择
 host-suffix, movements.org, 节点选择
 host-suffix, moves-export.com, 节点选择
+host-suffix, movie.eroterest.net, 节点选择
 host-suffix, moviefap.com, 节点选择
 host-suffix, mozilla.org, 节点选择
 host-suffix, moztw.org, 节点选择
@@ -4483,6 +4495,9 @@ host-suffix, nitter.net, 节点选择
 host-suffix, niu.moe, 节点选择
 host-suffix, niusnews.com, 节点选择
 host-suffix, njactb.org, 节点选择
+host-suffix, njav.com, 节点选择
+host-suffix, njav.tv, 节点选择
+host-suffix, njavtv.com, 节点选择
 host-suffix, njuice.com, 节点选择
 host-suffix, nlfreevpn.com, 节点选择
 host-suffix, nmsl.website, 节点选择
@@ -4843,6 +4858,7 @@ host-suffix, phptutorial.net, 节点选择
 host-suffix, phuquocservices.com, 节点选择
 host-suffix, piaotia.com, 节点选择
 host-suffix, piaotian.net, 节点选择
+host-suffix, pica-id.com, 节点选择
 host-suffix, picacomic.com, 节点选择
 host-suffix, picacomiccn.com, 节点选择
 host-suffix, picasaweb.com, 节点选择
@@ -4920,6 +4936,7 @@ host-suffix, plus28.com, 节点选择
 host-suffix, plusbb.com, 节点选择
 host-suffix, pmatehunter.com, 节点选择
 host-suffix, pmates.com, 节点选择
+host-suffix, po-kaki-to.com, 节点选择
 host-suffix, po2b.com, 节点选择
 host-suffix, pobieramy.top, 节点选择
 host-suffix, podbean.com, 节点选择
@@ -6178,6 +6195,7 @@ host-suffix, tinypaste.com, 节点选择
 host-suffix, tinypic.com, 节点选择
 host-suffix, tinyurl.com, 节点选择
 host-suffix, tipas.net, 节点选择
+host-suffix, tipatipa.xyz, 节点选择
 host-suffix, tistory.com, 节点选择
 host-suffix, tkcs-collins.com, 节点选择
 host-suffix, tl.gd, 节点选择
@@ -6906,6 +6924,7 @@ host-suffix, whylover.com, 节点选择
 host-suffix, whyx.org, 节点选择
 host-suffix, widevine.com, 节点选择
 host-suffix, wikaba.com, 节点选择
+host-suffix, wikawika.xyz, 节点选择
 host-suffix, wiki.esu.im, 节点选择
 host-suffix, wiki.kfd.me, 节点选择
 host-suffix, wikia.com, 节点选择
@@ -7345,6 +7364,7 @@ host-suffix, zoozle.net, 节点选择
 host-suffix, zophar.net, 节点选择
 host-suffix, zorrovpn.com, 节点选择
 host-suffix, zozotown.com, 节点选择
+host-suffix, zozovideo.com, 节点选择
 host-suffix, zpn.im, 节点选择
 host-suffix, zsdxzk.com, 节点选择
 host-suffix, zspeeder.me, 节点选择

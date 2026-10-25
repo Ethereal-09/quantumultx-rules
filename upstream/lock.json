@@ -37,8 +37,8 @@
   "apple": {
     "kind": "filter",
     "path": "upstream/filter/apple.list",
-    "rules": 1881,
-    "sha256": "cd0d7efae7868ddac50f82826bb21d3e50b8bc2b60d59ebf55c96907439fefab",
+    "rules": 1880,
+    "sha256": "d7eb3998cbdc61717dba9bd64e7df5c7ff7e8c0742fd054aa0dd544727091605",
     "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list"
   },
   "direct-upstream": {
@@ -65,8 +65,8 @@
   "proxy": {
     "kind": "filter",
     "path": "upstream/filter/proxy.list",
-    "rules": 7482,
-    "sha256": "9c9b9413f97714432dc40e4b2e7d869a22b4480b014f555bfb6115b2ad36b1f0",
+    "rules": 7502,
+    "sha256": "f6e94dc119718474a07eb17bbad9dc1c040ad5ddf3d963ef4fd264f680f9517c",
     "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy.list"
   },
   "script-c9641bcbfac07130d01d": {
