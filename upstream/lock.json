@@ -38,7 +38,7 @@
     "kind": "filter",
     "path": "upstream/filter/apple.list",
     "rules": 1880,
-    "sha256": "d7eb3998cbdc61717dba9bd64e7df5c7ff7e8c0742fd054aa0dd544727091605",
+    "sha256": "966cb314803464ea516243104ed97aaa695d44da71f46b4c72bf8a14e7c67931",
     "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list"
   },
   "direct-upstream": {

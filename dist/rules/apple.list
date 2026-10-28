@@ -4,7 +4,7 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-10-26 04:15:00
+# UPDATED: 2026-10-28 05:41:06
 # HOST: 272
 # HOST-KEYWORD: 7
 # HOST-SUFFIX: 1550
@@ -14,7 +14,6 @@
 # USER-AGENT: 23
 # TOTAL: 1880
 host, apps.apple.com, 苹果服务
-host, itunes.apple.com, 苹果服务
 host, a1.mzstatic.com, 苹果服务
 host, a2.mzstatic.com, 苹果服务
 host, a3.mzstatic.com, 苹果服务
@@ -259,6 +258,7 @@ host, devstreaming-cdn.apple.com, 苹果服务
 host, docs-assets.developer.apple.com, 苹果服务
 host, hls-svod.itunes.apple.com, 苹果服务
 host, hls.itunes.apple.com, 苹果服务
+host, itunes.apple.com, 苹果服务
 host, js-cdn.music.apple.com, 苹果服务
 host, lookup-api.apple.com, 苹果服务
 host, mask-api.fe.apple-dns.net, 苹果服务
@@ -274,6 +274,7 @@ host, news-events.apple.com, 苹果服务
 host, np-edge.itunes.apple.com, 苹果服务
 host, play-edge.itunes.apple.com, 苹果服务
 host, sandbox.itunes.apple.com, 苹果服务
+host, testflight.apple.com, 苹果服务
 host, tv.applemusic.com, 苹果服务
 host, uts-api.itunes.apple.com, 苹果服务
 host, hls-amt.itunes.apple.com, 苹果服务
@@ -283,7 +284,6 @@ host, statici.icloud.com, 苹果服务
 host, amp-api.fitness.apple.com, 苹果服务
 host, guzzoni.apple.com, 苹果服务
 host, beta.apple.com, 苹果服务
-host, testflight.apple.com, 苹果服务
 host, www-cdn.icloud.com.akadns.net, 苹果服务
 host-suffix, 100beatscheap.com, 苹果服务
 host-suffix, 1monsterbeatsbydreus.com, 苹果服务
@@ -1468,7 +1468,6 @@ host-suffix, applepaysupplies.net, 苹果服务
 host-suffix, applepaysupplies.tv, 苹果服务
 host-suffix, applewallet.com, 苹果服务
 host-suffix, applewallet.tv, 苹果服务
-host-suffix, appsto.re, 苹果服务
 host-suffix, appstore.co.id, 苹果服务
 host-suffix, appstore.com, 苹果服务
 host-suffix, appstore.hk, 苹果服务
@@ -1791,7 +1790,6 @@ host-suffix, ukipad.com, 苹果服务
 host-suffix, wwwipodlounge.com, 苹果服务
 host-suffix, wwwmacbookair.com, 苹果服务
 host-suffix, apple.comscoreresearch.com, 苹果服务
-host-suffix, apple.news, 苹果服务
 host-suffix, appleenews.com, 苹果服务
 host-suffix, applemusic.berlin, 苹果服务
 host-suffix, applemusic.co, 苹果服务
@@ -1829,6 +1827,8 @@ host-suffix, musickit.net, 苹果服务
 host-suffix, wwwapplemusic.com, 苹果服务
 host-suffix, applemusic.com, 苹果服务
 host-suffix, apple-dns.net, 苹果服务
+host-suffix, apple.news, 苹果服务
+host-suffix, appsto.re, 苹果服务
 host-suffix, cdn-apple.com, 苹果服务
 host-suffix, digicert.com, 苹果服务
 host-suffix, apple-cloudkit.com, 苹果服务
